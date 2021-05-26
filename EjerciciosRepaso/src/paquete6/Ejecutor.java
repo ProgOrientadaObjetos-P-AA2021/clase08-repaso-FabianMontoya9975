@@ -20,10 +20,14 @@ public class Ejecutor {
         Calificacion c1 = new Calificacion(10, "Computación");
         Calificacion c2 = new Calificacion(10, "Lógica");
         Calificacion c3 = new Calificacion(10, "Literatura");
+        // falto declarar un argumento de tipo double para que reciba el 
+        // valor para nota en el constructor de la clase Calificación
         
         Profesor profesor1 = new Profesor("Tara Hernandez", "contratado");
         Profesor profesor2 = new Profesor("Gregory Walsh", "nombramiento");
         Profesor profesor3 = new Profesor("Kevin Page", "nombramiento");
+        // falto declarar un argumento de tipo String para que reciba el
+        // valor para tiipo en el constructor de la clase Profesor
         
         c1.establecerProfesor(profesor1);
         c2.establecerProfesor(profesor2);
